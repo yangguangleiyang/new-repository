@@ -1,5 +1,5 @@
 #print("hello world")
-print("This is my first program in Pycharm")
+# print("This is my first program in Pycharm")
 
 '''age_of_princal = 56
 guess_age = int(input("your age:"))
@@ -105,4 +105,3 @@ while num_Height <= Height:
     print()
     num_Height += 1
 '''
-123
