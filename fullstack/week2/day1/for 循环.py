@@ -36,19 +36,19 @@
 
 #以上案例也可以用 for  else 来完成
 #
-# _user = "yangqianfeng"
-# _password = "abc123"
-#
-#
-# for i in range(3):
-#     username = input("Username:")
-#     password = input("Password:")
-#
-#     if username == _user and password == _password:
-#         print("Welcome to %s login system"%_user)
-#         break
-#     else:
-#         print("involid username or passworde")
+_user = "yangqianfeng"
+_password = "abc123"
+
+
+for i in range(3):
+    username = input("Username:")
+    password = input("Password:")
+
+    if username == _user and password == _password:
+        print("Welcome to %s login system"%_user)
+        break
+    else:
+        print("involid username or passworde")
 #
 # else:  #只有当for循环中次数正常执行结束，才会执行else部分，一旦出现中断，就不会执行了
 #     print("登录次数过多")
