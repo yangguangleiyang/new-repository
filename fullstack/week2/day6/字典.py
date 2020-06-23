@@ -55,17 +55,56 @@
 # print(list(dic.keys()))
 
 #删
-dic = {"name":"alex","age":35,"hobby":"girl"}
+# dic = {"name":"alex","age":35,"hobby":"girl"}
 # del dic["name"]
 # print(dic)
 # dic.clear()
 # print(dic)
 
 #pop
-# ret = dic.pop("age")  #有返回值
-# print(dic)
-# print(ret)
+ret = dic.pop("age")  #有返回值
+print(dic)
+print(ret)
 
 #popitem  随机删除
 # dic.popitem()
-# print(dic)
+
+#其他操作及方法   fromkeys
+# dic6 = dict.fromkeys(["host1","host2","host3"],"test")
+# print(dic6) #{'host1': 'test', 'host2': 'test', 'host3': 'test'}
+
+
+
+#字典的嵌套
+
+#排序
+# dic = {5:"555",6:"666",7:"777"}
+# print(sorted(dic))    #[5, 6, 7]  等同于print(sorted(dic.keys()))  根据键
+# print(sorted(dic.values()))   #['555', '666', '777']   根据值
+# print(sorted(dic.items()))   #[(5, '555'), (6, '666'), (7, '777')]   根据键
+
+
+#字典的遍历
+#循环遍历键
+# dic = {"name":"alex","age":35,"hobby":"girl"}
+# for i in dic:
+#     #print(i)
+#     print(i,dic[i])   #这样键和值就都打印出来了
+# for i,v in dic.items():
+#     print(i,v)
+
+
+#字符串
+#String 操作
+
+#重复输出字符串
+#print("hello"*5)
+
+#通过索引获取字符串中字符，和列表中的切片操作是相同的
+#print("hellowordhelloword"[3:-1])
+
+#判断元素是否在列表中，返回True和False
+# print("el"in"hello")
+
+
+
