@@ -22,8 +22,8 @@
 
 #增
 # dic1 = {"name":"alex"}
-# # dic1["age"]=35
-# # print(dic1)
+# dic1["age"]=35
+# print(dic1)
 
 #改
 # dic1["name"]="yangqianfeng"  #如果有已存在的键，则会修改
@@ -62,9 +62,10 @@ dic = {"name":"alex","age":35,"hobby":"girl"}
 # print(dic)
 
 #pop
-ret = dic.pop("age")  #有返回值
-print(dic)
-print(ret)
+# ret = dic.pop("age")  #有返回值
+# print(dic)
+# print(ret)
 
 #popitem  随机删除
-dic.popitem()
+# dic.popitem()
+# print(dic)

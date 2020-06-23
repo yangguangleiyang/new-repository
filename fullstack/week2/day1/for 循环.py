@@ -74,7 +74,3 @@ else:  #只有当for循环中次数正常执行结束，才会执行else部分�
     print("登录次数过多")
 """
 
-for i in range(10):
-    if i < 5:
-        continue
-    print(i)
