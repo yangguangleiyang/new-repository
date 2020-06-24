@@ -43,16 +43,16 @@
 
 
 #查
-# dic = {"name":"alex","age":35,"hobby":"girl"}
+#dic = {"name":"alex","age":35,"hobby":"girl"}
 # print(dic["name"])
 
-
-# print(dic.keys())#找出所有的键
-#print(dic.values())  #找出所有的值
-#print(dic.items())  #找出所有的键值对
+#print(dic)
+# print(dic.keys())#找出所有的键   #dict_keys(['name', 'age', 'hobby'])
+# print(dic.values())  #找出所有的值   #dict_values(['alex', 35, 'girl'])
+# print(dic.items())  #找出所有的键值对  #dict_items([('name', 'alex'), ('age', 35), ('hobby', 'girl')])
 # 输出是dict_keys(['name', 'age', 'hobby'])  类型
 # 可以转换为
-# print(list(dic.keys()))
+#print(list(dic.items()))
 
 #删
 # dic = {"name":"alex","age":35,"hobby":"girl"}
@@ -62,9 +62,9 @@
 # print(dic)
 
 #pop
-ret = dic.pop("age")  #有返回值
+'''ret = dic.pop("age")  #有返回值
 print(dic)
-print(ret)
+print(ret)'''
 
 #popitem  随机删除
 # dic.popitem()
@@ -105,6 +105,7 @@ print(ret)
 
 #判断元素是否在列表中，返回True和False
 # print("el"in"hello")
+
 
 
 
