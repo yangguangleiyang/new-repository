@@ -48,10 +48,25 @@ print("  kdkdk\n".strip())  #将空格和换行去掉
 #
 # print("My Title  title".rsplit("t",1))  #从右边开始分割，只分割一次
 
-print("My Title  title".title())   #转换成标题的格式
+#print("My Title  title".title())   #转换成标题的格式
 
 
 
+"""
+for i in range(1,10):
+    for j in range(1,i+1):
+        print("%d*%d=%2d"%(j,i,j*i),end="\t")
+    print()
+
+a = 1
+while a <10:
+    b = 1
+    while b <= a:
+        print("%d*%d=%2d"%(b,a,b*a),end="\t")
+        b += 1
+    a += 1
+    print()
+"""
 
 
 
