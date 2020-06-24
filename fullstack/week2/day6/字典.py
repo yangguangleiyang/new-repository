@@ -106,5 +106,15 @@
 #判断元素是否在列表中，返回True和False
 # print("el"in"hello")
 
+#字符串拼接
+# a = "123"
+# b = "abc"
+# c =a+b
+# print(c)   #占内存 不建议
+
+#或者
+# c = "".join([a,b])
+# print(c)
+
 
 
