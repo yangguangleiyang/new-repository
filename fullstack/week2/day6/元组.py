@@ -19,7 +19,7 @@ if saving.isdigit():
     saving = int(saving)
 
     while True:
-        for i,v in enumerate(product_list,1):
+        for i,v in enumerate(product_list,1): #enumerate将索引打印出来，1代表从索引起始位置
             print(i,"<<<<<",v)
 
         choice = input("请输入您的选项(退出按q)：")

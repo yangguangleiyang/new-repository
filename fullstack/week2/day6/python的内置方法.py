@@ -68,8 +68,48 @@ while a <10:
     print()
 """
 
+#三级菜单登录
 
+menu = {
+    "北京":{
+        "朝阳":{
+            "望京":{
+                "iqiyi":{},
+                "快手":{},
+                "优酷":{}
+            },
+            "三里屯":{},
+            "大悦城":{}
+        },
+        "海淀":{},
+        "通州":{}
+    },
+    "河北":{
+        "衡水":{},
+        "张家口":{},
+        "邯郸":{}
 
+    },
+    "山东":{},
+    "山西":{}
+}
+
+current_layer = menu
+parent_layers = []
+while True:
+    for key in current_layer:
+        print(key)
+    choice = input("请输入选项：").strip()
+    if len(choice) == 0:continue
+    if choice in current_layer:
+        parent_layers.append(current_layer)
+        current_layer = current_layer[choice]
+
+    elif choice == "b":
+        if parent_layers:
+            current_layer = parent_layers.pop()
+    else:
+        print("无此选项")
 
 
 
