@@ -14,8 +14,27 @@
 #     sys.stdout.flush()
 #     time.sleep(0.2)
 
-f = open("小重山2","a",encoding="utf-8")
+# f = open("小重山2","a",encoding="utf-8")
 # f.truncate(6)  #truncate()是取文件前面六个字符，注意，打开方式一定要是append
+
+
+# r+  w+  a+
+#f = open("小重山2","r+",encoding="utf-8")
+# print(f.readline())
+# f.write("岳飞123")
+#注意：
+#r+：先读后写的话是在原有文本后添加, 因为读完后类指针已经在最末尾了，如果是先写后读的话，是从头开始覆盖式写
+
+# f = open("小重山2","w+",encoding="utf-8")  #先清空列表
+# f.write("岳飞")     #记住，写完之后光标定位在写完的位置，读的话只能往后读，所以需要seek一下
+#
+# print(f.tell())
+# f.seek(0)
+# print(f.readline())
+
+# f = open("小重山2","a+",encoding="utf-8")
+# f.write("是个英雄")       #在文件末尾追加
+# print(f.readline())
 #
 # f.close()
 
