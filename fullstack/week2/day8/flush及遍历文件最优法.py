@@ -38,3 +38,31 @@
 #
 # f.close()
 
+
+#如果想替换中间部分的内容，只能重新写，因为字符串在磁盘位置是固定不变的。
+# f_read = open("小重山","r",encoding="utf-8")
+# f_write = open("小重山2","w",encoding="utf-8")
+#
+# number = 0
+# for line in f_read:
+#     number+=1
+#     if number == 5:
+#         line = "hello 岳飞\n"
+#     if number == 6:
+#         continue
+#     f_write.write(line)
+#
+# f_read.close()
+# f_write.close()
+
+
+#with语句是防止忘记close ,当退出with代码行时自动关闭
+with open("小重山","r",encoding="utf-8") as f_read,open("小重山2","w",encoding="utf-8") as f_write:
+    number = 0
+    for line in f_read:
+        number += 1
+        if number == 5:
+            line = "hello world 岳飞\n"
+        if number == 6:
+            continue
+        f_write.write(line)
