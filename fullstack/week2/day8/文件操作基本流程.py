@@ -23,10 +23,10 @@
 #注意 ： 不能在同一时刻，被两个人拿到
 
 #文件操作具体方法
-# f = open("小重山","r",encoding="utf-8")
-# print(f.readline())  #打出第一行
-# print(f.readline()) #打印结果是第二行
-#print(f.readlines())  #打印全部内容
+f = open("小重山","r",encoding="utf-8")
+#print(f.readline())  #打出第一行
+b = f.readlines()
+print(b)  #打印全部内容
 #运行结果是列表：['昨夜寒蛩不住鸣。\n', '惊回千里梦，已三更。\n', '起来独自绕阶行，\n',
 # '人悄悄，帘外月胧明。\n', '白首为功名，旧山松竹老，阻归程。\n', '欲将心事付瑶琴，\n', '知音少，弦断有谁听。']
 
@@ -41,15 +41,15 @@
 # f.close()
 
 
-f = open("小重山","r",encoding="utf-8")
-# for i in f:   #目的是用哪个就取出哪个，这是for内部将f做成一个迭代器
-#     print(i.strip())
-
-print(f.tell())
-print(f.read(5))
-print(f.tell())  #英文代表一个字符，中文代表三个字符，所以输出是15
-
-print(f.seek(0))  #seek的作用是将光标跳到指定位置
-print(f.read(6))
-
-f.close()
+# f = open("小重山","r",encoding="utf-8")
+# # for i in f:   #目的是用哪个就取出哪个，这是for内部将f做成一个迭代器
+# #     print(i.strip())
+#
+# print(f.tell())
+# print(f.read(5))
+# print(f.tell())  #英文代表一个字符，中文代表三个字符，所以输出是15
+#
+# print(f.seek(0))  #seek的作用是将光标跳到指定位置
+# print(f.read(6))
+#
+# f.close()
