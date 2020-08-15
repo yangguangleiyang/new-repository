@@ -39,7 +39,6 @@
 _user = "yangqianfeng"
 _password = "abc123"
 
-
 for i in range(3):
     username = input("Username:")
     password = input("Password:")
@@ -49,9 +48,9 @@ for i in range(3):
         break
     else:
         print("involid username or passworde")
-#
-# else:  #只有当for循环中次数正常执行结束，才会执行else部分，一旦出现中断，就不会执行了
-#     print("登录次数过多")
+
+else:  #只有当for循环中次数正常执行结束，才会执行else部分，一旦出现中断，就不会执行了
+     print("登录次数过多")
 """
 #用while循环完成
 

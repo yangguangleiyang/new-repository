@@ -2,17 +2,17 @@
 #date: 2020/6/20
 
 #列表
-#a = ["wuchao","jinxin","xiaohu","sanpang","liqiang"]
+a = ["wuchao","jinxin","xiaohu","sanpang","liqiang"]
 #print(a)
 
 #查   切片
-# print(a[3])
+print(a[3])
 #print(a[1:3])  #切记 顾头不顾尾 实际输出只有1、2
-# print(a[1:])  #取到最后
+print(a[1:])  #取到最后
 # print(a[1:-1]) #取到最后的倒数第二值
 # print(a[1::2]) #其中2为步长
-# print(a[3::-2]) #b表示从右边到左边倒着输出
-# print(a[-1::-1])  #-1代表倒数第一个。-2代表倒数第二个
+print(a[3::-2]) #b表示从右边到左边倒着输出
+print(a[-1::-1])  #-1代表倒数第一个。-2代表倒数第二个
 
 #增  append insert
 #append 自动在列表结尾自动添加

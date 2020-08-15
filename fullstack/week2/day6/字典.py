@@ -15,7 +15,7 @@
 #可变数据类型是不可以作为键的
 
 #字典的创建
-# dic = {"name":"alex","age":35,"hobby":"girl"}
+#dic = {"name":"alex","age":35,"hobby":"girl"}
 #另一种创建方式
 # dic2 = dict((("name","alex"),("age",35),("hobby","girl")))
 # print(dic2)
@@ -26,12 +26,12 @@
 # print(dic1)
 
 #改
-# dic1["name"]="yangqianfeng"  #如果有已存在的键，则会修改
+#dic["name"]="yangqianfeng"  #如果有已存在的键，则会修改
 # print(dic1)
 
-# dic1 = {"name":"alex"}  #如果有已存在的键，则不会修改
+#dic = {"name":"alex"}  #如果有已存在的键，则不会修改
 # ret=dic1.setdefault("age",23)  #有返回值  此处是逗号
-# print(dic1)
+#print(dic)
 # print(ret)
 
 #update
@@ -44,12 +44,12 @@
 
 #查
 #dic = {"name":"alex","age":35,"hobby":"girl"}
-# print(dic["name"])
+#print(dic["name"])
 
 #print(dic)
 # print(dic.keys())#找出所有的键   #dict_keys(['name', 'age', 'hobby'])
 # print(dic.values())  #找出所有的值   #dict_values(['alex', 35, 'girl'])
-# print(dic.items())  #找出所有的键值对  #dict_items([('name', 'alex'), ('age', 35), ('hobby', 'girl')])
+#print(dic.items())  #找出所有的键值对  #dict_items([('name', 'alex'), ('age', 35), ('hobby', 'girl')])
 # 输出是dict_keys(['name', 'age', 'hobby'])  类型
 # 可以转换为
 #print(list(dic.items()))
@@ -86,12 +86,12 @@ print(ret)'''
 
 #字典的遍历
 #循环遍历键
-# dic = {"name":"alex","age":35,"hobby":"girl"}
-# for i in dic:
-#     #print(i)
-#     print(i,dic[i])   #这样键和值就都打印出来了
-# for i,v in dic.items():
-#     print(i,v)
+dic = {"name":"alex","age":35,"hobby":"girl"}
+for i in dic:
+    #print(i)
+    print(i,dic[i])   #这样键和值就都打印出来了
+for i,v in dic.items():
+    print(i,v)
 
 
 #字符串
