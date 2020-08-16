@@ -10,7 +10,7 @@
 
 # li=[2,3,"alexe"]
 # s1=set(li)
-s1=set([2,3,"alexe"])
+s1=set([2,3,"alexe",2,3,4])
 
-print(s1)   #{'alexe', 2, 3}
+print(s1)   #{'alexe', 2, 3,4}
 
