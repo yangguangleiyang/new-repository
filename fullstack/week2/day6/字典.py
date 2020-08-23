@@ -15,7 +15,7 @@
 #可变数据类型是不可以作为键的
 
 #字典的创建
-# dic = {"name":"alex","age":35,"hobby":"girl"}
+#dic = {"name":"alex","age":35,"hobby":"girl"}
 #另一种创建方式
 # dic2 = dict((("name","alex"),("age",35),("hobby","girl")))
 # print(dic2)

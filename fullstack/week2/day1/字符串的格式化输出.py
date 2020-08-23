@@ -1,7 +1,7 @@
 #_author:"yangqianfeng"
 #date: 2020/6/18
 
-#Alt + 问号 快捷键为批量注释
+#ctrl + 问号 快捷键为批量注释
 
 # 占位符
 # %s = string

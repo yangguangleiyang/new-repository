@@ -14,8 +14,8 @@
 #     sys.stdout.flush()
 #     time.sleep(0.2)
 
-# f = open("小重山2","a",encoding="utf-8")
-# f.truncate(6)  #truncate()是取文件前面六个字符，注意，打开方式一定要是append
+# f = open("小重山","a",encoding="utf-8")
+# f.truncate(6)  #truncate()是取文件前面六个字符，注意，打开方式一定要是append,是指剩下文件中前六个字符。
 
 
 # r+  w+  a+

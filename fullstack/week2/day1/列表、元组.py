@@ -2,7 +2,7 @@
 #date: 2020/6/20
 
 #列表
-#a = ["wuchao","jinxin","xiaohu","sanpang","liqiang"]
+a = ["wuchao","jinxin","xiaohu","sanpang","liqiang"]
 #print(a)
 
 #查   切片
