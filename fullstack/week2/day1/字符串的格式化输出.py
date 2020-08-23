@@ -18,12 +18,11 @@ else:
     exit("must be input digit")  #退出程序
 
 msg='''
------info of %s----
-Name:%s
-Age:%s
-Job:%s
-Salary:%d  # %d要求必须输入数字
+----welcome %s---
+name1:%s
+age1:%s
+job1:%s
+salary1:%s
 You will be retired in %s years
--------------end-------
 '''%(name,name,age,job,salary,65-age)
 print(msg)

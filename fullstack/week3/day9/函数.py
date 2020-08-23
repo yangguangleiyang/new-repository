@@ -58,10 +58,45 @@
 #     return n*fact(n-1)
 # print(fact(5))
 
-def peibo(n):
-    if n==0:
-        return 0
-    elif n==1:
-        return 1
-    return peibo(n-1)+peibo(n-2)
-print(peibo(8))
+
+#裴波那契数列 递归写法
+# def peibo(n):
+#     if n==0:
+#         return 0
+#     elif n==1:
+#         return 1
+#     return peibo(n-1)+peibo(n-2)
+# print(peibo(8))
+
+
+#内置函数
+#filter   进行过滤筛选
+# str=["a","b","c","d"]
+#
+# def funl(s):
+#     if s!="a":
+#         return s
+# ret=filter(funl,str)  #ret现在是一个迭代器
+# print(list(ret))
+
+#map    对数值进行改变
+# str=["a","b","c"]
+# def fun2(s):
+#     return s+"alven"
+# ret=map(fun2,str)
+# print(ret)   #<map object at 0x0000026D876EAAF0>
+# print(list(ret))   #['aalven', 'balven', 'calven']
+
+#reduce  对数值1到100进行全部相加
+# from functools import  reduce
+# def add1(x,y):
+#     return x+y
+# print(reduce(add1,range(1,101)))
+
+#匿名函数  通过匿名函数来实现阶乘
+
+from functools import reduce
+ret=reduce(lambda x,y:x+y,range(1,101))
+print(ret)
+
+
