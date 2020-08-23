@@ -13,19 +13,24 @@
 
 #装饰器   修饰函数必须在被修饰函数之上
 import  time
+def logger(flag=""):
+    def showtime(f):
+        def inner(*args,**varge):
+            statr=time.time()
+            f(*args,**varge)
+            end=time.time()
+            print("spend time %s"% (end-statr))
+            if flag=="true":
+                print("日志打印")
 
-def showtime(f):
-    def inner():
-        statr=time.time()
-        f()
-        end=time.time()
-        print("spend time %s"% (end-statr))
-    return inner
+        return inner
+    return showtime
 
-@showtime      #等价于foo=showtime(foo)
-def foo():
+@logger("true")      #等价于先执行logger("true")函数，这个函数return showtime,相当于@showtime  等价于
+#showtime=showtime(foo)
+def foo(*args,**varge):
     print("一段代码")
     time.sleep(3)
 
-foo()
+foo(1,2,3,4,5,6)
 

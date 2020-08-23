@@ -94,9 +94,9 @@
 # print(reduce(add1,range(1,101)))
 
 #匿名函数  通过匿名函数来实现阶乘
-
-from functools import reduce
-ret=reduce(lambda x,y:x+y,range(1,101))
-print(ret)
+#
+# from functools import reduce
+# ret=reduce(lambda x,y:x+y,range(1,101))
+# print(ret)
 
 
