@@ -25,17 +25,28 @@
 
 #第二种方法生成 生成器
 
-def foo():
-    print("ok1")
-    yield 1
-
-    print("ok2")
-    yield 2
+# def foo():
+#     print("ok1")
+#     yield 1
+#
+#     print("ok2")
+#     yield 2
 
 # for i in foo():
 #     print(i)
 #执行结果 OK1  1  ok2  2
 
-g=foo()
-next(g) #执行结果 ok1   记住 不是ok1 1
-next(g)
+# g=foo()
+# next(g) #执行结果 ok1   记住 不是ok1 1
+# next(g)
+
+#什么是可迭代对象   对象拥有 iter方法的
+
+#实现裴波那契数列
+def fib(max):
+    n,b,a=0,0,1
+    while n<max:
+        print(a)
+        b,a=a,a+b
+        n=n+1
+fib(8)
