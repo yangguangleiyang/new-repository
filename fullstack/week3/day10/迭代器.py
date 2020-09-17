@@ -12,5 +12,5 @@ print(next(g))
 #1.调用可迭代对象的iter方法返回一个迭代器对象
 #2.不断调用迭代器对象的next方法
 #3.处理stop异常
-for i in [1,2,3,4]
+for i in [1,2,3,4]:
     print(i)
