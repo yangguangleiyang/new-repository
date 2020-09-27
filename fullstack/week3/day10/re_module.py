@@ -9,11 +9,11 @@
 import re
 
 # . 指通配符
-# ret=re.findall("w..l","hello world")
+# ret=re.findall("w..l","hello world whelo")
 # print(ret)
 
 # ^ 只对开始进行匹配
-# ret=re.findall("^h..o","hooojfdkafdja")
+# ret=re.findall("^h..o","hooojfdkafdjahdl")
 # print(ret)
 
 # $ 只对最后进行匹配
