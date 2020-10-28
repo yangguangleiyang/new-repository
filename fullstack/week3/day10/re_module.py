@@ -36,8 +36,8 @@ import re
 # ret=re.findall("a{5}b","aaaaaab")
 # print(ret)
 #
-# ret=re.findall("a{1,5}b","aaaaaabababaab")
-# print(ret)
+ret=re.findall("a{1,5}b","aaaaaabababaab")
+print(ret)
 
 #结论： * 等于{0，正无穷}   + 等于{1，正无穷}   ？等于{0,1}  推荐前者
 
@@ -49,8 +49,8 @@ import re
 # print(ret)
 
 # [] 取消元字符的特殊功能  (\ ^  -  例外)
-# ret=re.findall("[w,.]","fdsdwee.")
-# print(ret)
+ret=re.findall("[w,.]","fdsdwee.")
+print(ret)
 
 # ^ 放在[]中 意思是取反
 # ret=re.findall("[^t]","ddwetrre")
@@ -71,8 +71,8 @@ import re
 # ret=re.findall("\d{11}","fdjsa323234324324323242") #匹配十一位手机号
 
 #匹配出第一个满足条件的结果
-# ret=re.search("s.b","fdjksafsabdddsvb").group()
-# print(ret)
+ret=re.search("s.b","fdjksafsabdddsvb").group()
+print(ret)
 
 ret=re.search("a\.","a.efdf").group()
 print(ret)
