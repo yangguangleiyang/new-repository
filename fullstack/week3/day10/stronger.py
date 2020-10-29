@@ -6,3 +6,6 @@ def study():
 def add(x,y):
     return x+y
     print("today is a wondeful day")
+
+def create(a,b):
+    return a*b
