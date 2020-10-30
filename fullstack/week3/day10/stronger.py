@@ -3,6 +3,9 @@ def study():
     print("hello world")
     return 3
 
+def agen():
+    print("remain")
+    
 def append():
     print("test")
     return 66
