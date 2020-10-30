@@ -9,3 +9,6 @@ def add(x,y):
 
 def create(a,b):
     return a*b
+
+def append2(x,y):
+    return x*y
