@@ -1,5 +1,5 @@
 print("hello,world")
-int t=3
+t=3
 if t>=3:
   print("大于等于3")
 else:
