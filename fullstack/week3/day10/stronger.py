@@ -19,3 +19,6 @@ def append2(x,y):
 
 def append3(e,p):
     return e*p
+
+def append4(q,v):
+    return q+v
