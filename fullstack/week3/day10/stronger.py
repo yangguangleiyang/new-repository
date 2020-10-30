@@ -12,3 +12,6 @@ def create(a,b):
 
 def append2(x,y):
     return x*y
+
+def append3(e,p):
+    return e*p
