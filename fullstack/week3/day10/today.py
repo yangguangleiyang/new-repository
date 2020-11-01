@@ -17,3 +17,5 @@ while a < 10:
         b+=1
     print()
     a += 1
+
+print("版本1")
