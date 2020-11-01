@@ -20,3 +20,4 @@ while a < 10:
 
 print("版本1")
 print("版本2")
+print("版本3")
