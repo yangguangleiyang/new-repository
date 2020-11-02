@@ -18,10 +18,3 @@ while a < 10:
     print()
     a += 1
 
-print("版本1")
-print("版本2")
-print("版本3")
-
-print("test1")
-print("test2")
-print("test3")
