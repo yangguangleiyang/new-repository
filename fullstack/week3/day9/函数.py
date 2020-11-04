@@ -16,7 +16,6 @@
 # def area(width,height):
 #     print(width*height)
 # area(4,5)
-
 #
 
 # def printinfo(arg1,*vartuple):
@@ -28,8 +27,7 @@
 
 # def f2(**kwargs):
 #     print(kwargs)
-# f2(name="yang",age=28,hobby="girl")    #输出为字典{'name': 'yang', 'age': 28, 'hobby': 'girl'}
-
+# f2(name="yang",age=28,hobby="girl") #输出为字典{'name': 'yang', 'age': 28, 'hobby': 'girl'}
 
 #高阶函数
 # def f(n):
