@@ -6,22 +6,22 @@
 # foo("yang",18,"nan")
 
 #面向对象
-# class bar:
-#     def foo(self,arg):
-#         print(self,self.name,self.age,self.gender,arg)
-#
-# z=bar()
-#
-# z.name="alex"
-# z.age=18
-# z.gender="nan"
-# z.foo(555)
-#
-# z1=bar()
-# z1.name="yang"
-# z1.age=19
-# z1.gender="nan"
-# z1.foo(666)
+class bar:
+    def foo(self,arg):
+        print(self,self.name,self.age,self.gender,arg)
+
+z=bar()
+
+z.name="alex"
+z.age=18
+z.gender="nan"
+z.foo(555)
+
+z1=bar()
+z1.name="yang"
+z1.age=19
+z1.gender="nan"
+z1.foo(666)
 
 #三大特性之封装
 
