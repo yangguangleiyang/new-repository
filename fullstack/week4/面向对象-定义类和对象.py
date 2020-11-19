@@ -40,4 +40,33 @@ alex.show()
 yang=person("yang",18)
 yang.show()
 
+print("------------------")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+class person2:
+    def __init__(self,name,gender):
+        self.n=name
+        self.a=age
+    def tall(self):
+        print()
+
+alex=person2("alex","男")
+
+
+
 

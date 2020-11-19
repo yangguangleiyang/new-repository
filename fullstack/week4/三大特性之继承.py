@@ -1,5 +1,4 @@
 class F:
-
     def f1(self):
         print("F.f1")
 
@@ -7,12 +6,11 @@ class F:
         print("F.f2")
 
 class S(F):
-
     def s1(self):
         print("S.s1")
 
     def s2(self):
-        print("F.f2")
+        print("S.s2")
 
     def f2(self):       #如果不想用父类的方法可以重写
         print("重写f2")
