@@ -6,10 +6,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0a08daa4-4092-482a-8ffb-150ca930cdc4" name="Default Changelist" comment="回归正规">
-      <change afterPath="$PROJECT_DIR$/fullstack/week4/类的成员之字段.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fullstack/week4/类的成员之属性.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fullstack/week4/类的成员之方法.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fullstack/week4/成员修饰符.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2020_11_19_9_27__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2020_11_19_9_27__Default_Changelist_.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fullstack/week4/类的成员之字段.py" beforeDir="false" afterPath="$PROJECT_DIR$/fullstack/week4/类的成员之字段.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fullstack/week4/类的成员之方法.py" beforeDir="false" afterPath="$PROJECT_DIR$/fullstack/week4/类的成员之方法.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +44,7 @@
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="GitIgnore" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
-  <component name="RunManager" selected="Python.类的成员之属性">
+  <component name="RunManager" selected="Python.成员修饰符">
     <configuration name="面向对象-定义类和对象" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="fullstack" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -88,7 +89,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="类的成员之方法" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="成员修饰符" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="fullstack" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -101,7 +102,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/fullstack/week4/类的成员之方法.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/fullstack/week4/成员修饰符.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -264,6 +265,50 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="类的成员之方法" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="fullstack" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/fullstack/week4" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/fullstack/week4/类的成员之方法.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="成员修饰符" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="fullstack" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/fullstack/week4" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/fullstack/week4/成员修饰符.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="标志位讲解" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="fullstack" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -374,6 +419,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="类的成员之方法" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="fullstack" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/fullstack/week4" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/fullstack/week4/类的成员之方法.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="知识点_name_变量" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="fullstack" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -398,15 +465,26 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.类的成员之属性" />
-        <item itemvalue="Python.类的成员之方法" />
+        <item itemvalue="Python.成员修饰符" />
         <item itemvalue="Python.类的成员之字段" />
         <item itemvalue="Python.面向对象-定义类和对象" />
         <item itemvalue="Python.知识点_name_变量" />
       </list>
     </recent_temporary>
   </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -443,6 +521,8 @@
       <workItem from="1604210643478" duration="3720000" />
       <workItem from="1605173088359" duration="1780000" />
       <workItem from="1605494155813" duration="4314000" />
+      <workItem from="1605926897152" duration="5383000" />
+      <workItem from="1606048442244" duration="1745000" />
     </task>
     <task id="LOCAL-00001" summary="123">
       <created>1592402110592</created>
@@ -630,7 +710,7 @@
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="3" />
+    <option name="version" value="1" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -662,12 +742,6 @@
         </entry>
       </map>
     </option>
-    <option name="OPEN_GENERIC_TABS">
-      <map>
-        <entry key="1" value="TOOL_WINDOW" />
-      </map>
-    </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="123" />
@@ -703,26 +777,26 @@
     </state>
     <state x="257" y="0" key="CommitChangelistDialog2/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1604052718728" />
     <state x="278" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1603980485484" />
-    <state width="1323" height="145" key="GridCell.Tab.0.bottom" timestamp="1605779038444">
+    <state width="1323" height="129" key="GridCell.Tab.0.bottom" timestamp="1606049931351">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1323" height="145" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1605779038444" />
-    <state width="1323" height="112" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1597325925111" />
-    <state width="1323" height="145" key="GridCell.Tab.0.center" timestamp="1605779038444">
+    <state width="1323" height="129" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1606049931351" />
+    <state width="1323" height="129" key="GridCell.Tab.0.center" timestamp="1606049931351">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1323" height="145" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1605779038444" />
-    <state width="1323" height="112" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1597325925109" />
-    <state width="1323" height="145" key="GridCell.Tab.0.left" timestamp="1605779038444">
+    <state width="1323" height="129" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1606049931351" />
+    <state width="1323" height="129" key="GridCell.Tab.0.left" timestamp="1606049931350">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1323" height="145" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1605779038444" />
-    <state width="1323" height="112" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1597325925109" />
-    <state width="1323" height="145" key="GridCell.Tab.0.right" timestamp="1605779038444">
+    <state width="1323" height="129" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1606049931350" />
+    <state width="1323" height="129" key="GridCell.Tab.0.right" timestamp="1606049931351">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1323" height="145" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1605779038444" />
-    <state width="1323" height="112" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1597325925109" />
+    <state width="1323" height="129" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1606049931351" />
     <state x="129" y="55" key="MergeDialog" timestamp="1604053035763">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -741,10 +815,10 @@
     </state>
     <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1604053049001" />
     <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1603980687848" />
-    <state x="363" y="188" key="com.intellij.ide.util.TipDialog" timestamp="1597325779504">
+    <state x="363" y="188" key="com.intellij.ide.util.TipDialog" timestamp="1606048452821">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="363" y="188" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1597325779504" />
+    <state x="363" y="188" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1606048452821" />
     <state x="486" y="277" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1601893884167">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -759,19 +833,19 @@
     <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1604211443641" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/fullstack$set.coverage" NAME="集合set Coverage Results" MODIFIED="1597325925090" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/fullstack/week3/day9" />
-    <SUITE FILE_PATH="coverage/new_repository$.coverage" NAME="类的成员之属性 Coverage Results" MODIFIED="1605779038428" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/fullstack/week4" />
-    <SUITE FILE_PATH="coverage/new_repository$test333.coverage" NAME="test333 Coverage Results" MODIFIED="1603337061951" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/fullstack/week3/day10" />
-    <SUITE FILE_PATH="coverage/new_repository$_.coverage" NAME="面向对象-定义类和对象 Coverage Results" MODIFIED="1605578707522" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/fullstack/week4" />
+    <SUITE FILE_PATH="coverage/new_repository$stronger.coverage" NAME="stronger Coverage Results" MODIFIED="1604282391254" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/fullstack/week3/day10" />
     <SUITE FILE_PATH="coverage/fullstack$for_.coverage" NAME="for 循环 Coverage Results" MODIFIED="1592741337366" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/fullstack/week2/day1" />
     <SUITE FILE_PATH="coverage/fullstack$python.coverage" NAME="python的内置方法 Coverage Results" MODIFIED="1593061042620" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/fullstack/week2/day6" />
-    <SUITE FILE_PATH="coverage/new_repository$_name_.coverage" NAME="知识点_name_变量 Coverage Results" MODIFIED="1603882613346" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/fullstack/week3/day10" />
-    <SUITE FILE_PATH="coverage/fullstack$flush.coverage" NAME="flush及遍历文件最优法 Coverage Results" MODIFIED="1596967835461" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/fullstack/week2/day8" />
-    <SUITE FILE_PATH="coverage/new_repository$re_module.coverage" NAME="re_module Coverage Results" MODIFIED="1603337700030" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/fullstack/week3/day10" />
-    <SUITE FILE_PATH="coverage/new_repository$stronger.coverage" NAME="stronger Coverage Results" MODIFIED="1604282391254" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/fullstack/week3/day10" />
-    <SUITE FILE_PATH="coverage/new_repository$test_study.coverage" NAME="test study Coverage Results" MODIFIED="1604471151025" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/fullstack/week3/day9" />
-    <SUITE FILE_PATH="coverage/fullstack$.coverage" NAME="函数 Coverage Results" MODIFIED="1597065747312" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/fullstack/week3/day9" />
+    <SUITE FILE_PATH="coverage/new_repository$test333.coverage" NAME="test333 Coverage Results" MODIFIED="1603337061951" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/fullstack/week3/day10" />
+    <SUITE FILE_PATH="coverage/new_repository$.coverage" NAME="成员修饰符 Coverage Results" MODIFIED="1606049931334" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/fullstack/week4" />
     <SUITE FILE_PATH="coverage/fullstack$test.coverage" NAME="test Coverage Results" MODIFIED="1592403345594" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/fullstack/week2/day1" />
+    <SUITE FILE_PATH="coverage/fullstack$.coverage" NAME="函数 Coverage Results" MODIFIED="1597065747312" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/fullstack/week3/day9" />
+    <SUITE FILE_PATH="coverage/new_repository$test_study.coverage" NAME="test study Coverage Results" MODIFIED="1604471151025" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/fullstack/week3/day9" />
+    <SUITE FILE_PATH="coverage/fullstack$set.coverage" NAME="集合set Coverage Results" MODIFIED="1597325925090" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/fullstack/week3/day9" />
+    <SUITE FILE_PATH="coverage/new_repository$_name_.coverage" NAME="知识点_name_变量 Coverage Results" MODIFIED="1603882613346" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/fullstack/week3/day10" />
+    <SUITE FILE_PATH="coverage/new_repository$_.coverage" NAME="面向对象-定义类和对象 Coverage Results" MODIFIED="1605578707522" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/fullstack/week4" />
+    <SUITE FILE_PATH="coverage/new_repository$re_module.coverage" NAME="re_module Coverage Results" MODIFIED="1603337700030" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/fullstack/week3/day10" />
+    <SUITE FILE_PATH="coverage/fullstack$flush.coverage" NAME="flush及遍历文件最优法 Coverage Results" MODIFIED="1596967835461" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/fullstack/week2/day8" />
     <SUITE FILE_PATH="coverage/new_repository$today.coverage" NAME="today Coverage Results" MODIFIED="1604281274437" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/fullstack/week3/day10" />
   </component>
 </project>

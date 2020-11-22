@@ -10,5 +10,5 @@ hebei=Province("河北")
 print(Province.country)  #通过类来访问静态字段
 print(hebei.name)
 
-#print("123")
+
 
