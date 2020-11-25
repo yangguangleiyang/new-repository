@@ -2,8 +2,8 @@
 #date: 2020/8/23
 
 #列表生成式
-# a=[x*2 for x in range(10)]  #列表生成式格式
-# print(a)
+a=[x*2 for x in range(10)]  #列表生成式格式
+print(a)
 
 # def f(n):
 #     return n*n
