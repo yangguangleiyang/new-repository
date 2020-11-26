@@ -20,7 +20,7 @@
 #
 # obj=Foo()
 # print(obj,type(obj))
-#
+
 # #int 对象，自动执行对象的__int__方法，并将返回值赋值给int对象
 # r=int(obj)
 # print(r)
