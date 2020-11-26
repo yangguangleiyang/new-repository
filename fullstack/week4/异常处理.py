@@ -2,7 +2,7 @@
 #     #代码块
 #     pass
 # except Exception as e:
-      #e是Exceprion对象，对象中封装了上面代码块中的错误信息
+      #e是Exception对象，对象中封装了上面代码块中的错误信息
 #     #上述代码块如果出错，自动执行当前块的内容
 
 # while True:
@@ -30,3 +30,24 @@
 # finally:       #不管最上面代码执行成功或者不成功，都会执行这块代码
 #     print("456")
 
+#================================
+#主动触发异常
+def db():
+    return False
+def index():
+    try:
+        r=input(">>")
+        int(r)
+
+        result=db()
+        if not result:
+            #r=open("log","a")
+            #r.writte("数据库处理错误")
+            raise Exception("数据库处理错误")   #主动触发异常，目的是把错误信息写到下面的日志，省略了上面两行diam
+    except Exception as e:
+        str_error=str(e)
+        print(str_error)
+        r=open("log","a")   #打开文件写日志
+        r.write(str_error)
+
+index()
