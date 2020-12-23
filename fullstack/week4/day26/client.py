@@ -2,7 +2,7 @@ import socket
 sk=socket.socket()
 print(sk)
 
-address=("127.0.0.1",8000)    #127.0.0.1为回环地址，代指本机ip
+address=("127.0.0.1",8888)    #127.0.0.1为回环地址，代指本机ip
 sk.connect(address)
 
 while True:
