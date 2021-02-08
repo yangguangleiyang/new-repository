@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+<!--    <style>-->
+<!--        对所有标签进行渲染-->
+<!--        *{-->
+<!--            font-size: 20px;-->
+<!--        }-->
+<!--    </style>-->
+
+<!--    <style>-->
+<!--        通过标签来进行渲染-->
+<!--        p{-->
+<!--            background-color: red;-->
+<!--        }-->
+<!--    </style>-->
+
+<!--    <style>-->
+<!--        通过id定位进行渲染-->
+<!--        #p2{-->
+<!--            font-size: initial;-->
+<!--            color: gold;-->
+<!--        }-->
+<!--    </style>-->
+
+<!--        <style>-->
+<!--            通过class属性批量对标签进行渲染-->
+<!--            .c1{-->
+<!--                font-size: 50px;-->
+<!--                background-color: red;-->
+<!--            }-->
+<!--        </style>-->
+
+<!--组合选择器    -->
+
+<!--    <style>-->
+<!--        后代选择器：div下面的所有p标签-->
+<!--        div p{-->
+<!--            font-size: 50px;-->
+<!--        }-->
+<!--    </style>-->
+
+<!--        <style>-->
+<!--            子代选择器：只对子代进行渲染，孙子代不管-->
+<!--            #outer>.c1{-->
+<!--                color: red;-->
+<!--            }-->
+<!--        </style>-->
+
+<!--    <style>-->
+<!--        同时对不同标签进行渲染-->
+<!--        #131,#p2{-->
+<!--            font-size: 30px;-->
+<!--        }-->
+<!--    </style>-->
+
+<!--    <style>-->
+<!--        毗邻选择器：只对test标签挨着下面的p标签进行渲染，如果紧邻的不是p标签，也不会进行渲染-->
+<!--        #test+p{-->
+<!--            background-color:red;-->
+<!--        }-->
+<!--    </style>-->
+
+</head>
+
+<body>
+    <p id="test">hello p</p>
+    <div class="c1">床前明月光</div>
+    <p>我爱你不问归期</p>
+
+    <div id="outer">hello div
+        <p id="p2">p2....</p>
+        <p class="c1">疑是地上霜</p>
+        <div>
+            <p class="c1">举头望明月</p>
+        </div>
+    </div>
+</body>
+</html>
