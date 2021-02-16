@@ -6,24 +6,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0a08daa4-4092-482a-8ffb-150ca930cdc4" name="Default Changelist" comment="回归正规">
-      <change afterPath="$PROJECT_DIR$/fullstack/week6/form表单.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fullstack/week6/html2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fullstack/week6/table.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fullstack/week6/ul、ol、dt.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fullstack/week6/微信图片_20201026205036.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fullstack/week6/锚.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fullstack/week7/b219ebc4b74543a93274875a18178a82b901143c.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fullstack/week7/css的属性一.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fullstack/week7/css的属性操作二.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fullstack/week7/css的属性选择器和伪类.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fullstack/week7/css的引入方式一.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fullstack/week7/css的引入方式三---链接式.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fullstack/week7/css的引入方式二.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fullstack/week7/css的引入方式四--导入式.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fullstack/week7/css的选择器.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fullstack/week7/mystyle.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fullstack/week7/float.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fullstack/week7/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fullstack/week7/position.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fullstack/week7/position2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fullstack/week7/编写抽屉页面.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fullstack/week6/html.html" beforeDir="false" afterPath="$PROJECT_DIR$/fullstack/week6/html.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fullstack/week7/css的属性一.html" beforeDir="false" afterPath="$PROJECT_DIR$/fullstack/week7/css的属性一.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fullstack/week7/css的属性操作二.html" beforeDir="false" afterPath="$PROJECT_DIR$/fullstack/week7/css的属性操作二.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +33,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="UPDATE_TYPE" value="MERGE" />
   </component>
-  <component name="JupyterTrust" id="7e8ffb13-aab1-43fc-bcb3-3ef12ca84263" />
+  <component name="JupyterTrust" id="0ae90482-84d1-4fe9-8882-ceebb7d043f8" />
   <component name="ProjectId" id="1dRxtaIZRovm8dV5X24smkoQu3h" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -86,6 +76,50 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/fullstack/week3/day10/模块.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="单例模式" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="fullstack" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/fullstack/week4/week25" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/fullstack/week4/week25/单例模式.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="字典" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="fullstack" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/fullstack/week2/day6" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/fullstack/week2/day6/字典.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -446,50 +480,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="单例模式" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="fullstack" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/fullstack/week4/week25" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/fullstack/week4/week25/单例模式.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="字典" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="fullstack" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/fullstack/week2/day6" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/fullstack/week2/day6/字典.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="app" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="fullstack" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -646,7 +636,9 @@
       <workItem from="1611821002227" duration="1866000" />
       <workItem from="1611840678616" duration="1612000" />
       <workItem from="1611980492062" duration="30929000" />
-      <workItem from="1612669869987" duration="10129000" />
+      <workItem from="1612669869987" duration="10929000" />
+      <workItem from="1612835229981" duration="8350000" />
+      <workItem from="1613439475419" duration="12915000" />
     </task>
     <task id="LOCAL-00001" summary="123">
       <created>1592402110592</created>
