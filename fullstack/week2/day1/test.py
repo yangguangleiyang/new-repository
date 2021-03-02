@@ -1,5 +1,6 @@
-#print("hello world")
+# print("hello world")
 # print("This is my first program in Pycharm")
+# print("test again")
 
 '''age_of_princal = 56
 guess_age = int(input("your age:"))
@@ -81,27 +82,31 @@ print()  #等价于print(end="\n")
 '''
 #总结： \n 的作用就是换行，其实end="\n"是默认不展示的，end=""双引号中表示以什么结束；\t表示缩进和tab一样
 #制表符（也叫制表位)的功能是在不使用表格的情况下在垂直方向按列对齐文本。
-'''
-九九乘法表
-a = 1
-while a < 10:
-    b = 1
-    while b <= a:
-        print(b,"*",a,"=",a*b,end="\t")
-        #或者 print(string(b)+"*"+string(a)+"=",a*b,end="\n")
-        b+=1
-    print()
-    a += 1
-'''
-'''
-Height = int(input("Heitht:"))
-Weight = int(input("Weight"))
-num_Height = 1
-while num_Height <= Height:
-    num_weight = 1
-    while num_weight <= Weight:
-        print("#",end="\t")
-        num_weight += 1
-    print()
-    num_Height += 1
-'''
+
+# 九九乘法表
+# a = 1
+# while a < 10:
+#     b = 1
+#     while b <= a:
+#         print(b,"*",a,"=",a*b,end="\t")
+#         #或者 print(string(b)+"*"+string(a)+"=",a*b,end="\n")
+#         b+=1
+#     print()
+#     a += 1
+
+
+
+
+
+# '''
+# Height = int(input("Heitht:"))
+# Weight = int(input("Weight"))
+# num_Height = 1
+# while num_Height <= Height:
+#     num_weight = 1
+#     while num_weight <= Weight:
+#         print("#",end="\t")
+#         num_weight += 1
+#     print()
+#     num_Height += 1
+# '''
