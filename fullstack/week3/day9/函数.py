@@ -1,9 +1,9 @@
 #_author:"yangqianfeng"
 #date: 2020/8/9
 
-def f(x,y):
-    print(x+y)
-f(3,5)
+# def f(x,y):
+#     print(x+y)
+# f(3,5)
 
 # def add(*args):   # *args 为不定长参数 可接受很多参数
 #     print(args)
@@ -50,11 +50,11 @@ f(3,5)
 # print(f(5))
 
 #递归写法：
-# def fact(n):
-#     if n==1:
-#         return 1
-#     return n*fact(n-1)
-# print(fact(5))
+def fact(n):
+    if n==1:
+        return 1
+    return n*fact(n-1)
+print(fact(5))
 
 
 #裴波那契数列 递归写法

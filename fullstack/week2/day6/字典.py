@@ -29,7 +29,7 @@
 #dic["name"]="yangqianfeng"  #如果有已存在的键，则会修改
 # print(dic1)
 
-#dic = {"name":"alex"}  #如果有已存在的键，则不会修改
+#dic = {"name":"alex"}
 # ret=dic1.setdefault("age",23)  #有返回值  此处是逗号
 #print(dic)
 # print(ret)
@@ -88,10 +88,10 @@ print(ret)'''
 #循环遍历键
 dic = {"name":"alex","age":35,"hobby":"girl"}
 for i in dic:
-    #print(i)
+    # print(i)
     print(i,dic[i])   #这样键和值就都打印出来了
-for i,v in dic.items():
-    print(i,v)
+# for i,v in dic.items():
+#     print(i,v)
 
 
 #字符串
