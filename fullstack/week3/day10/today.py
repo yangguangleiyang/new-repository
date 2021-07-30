@@ -11,7 +11,7 @@
 # print("霜叶红于二月花")
 # print("君不见黄河之水天上来")
 
-#九九乘法表
+# 九九乘法表
 # a = 1
 # while a < 10:
 #     b = 1
@@ -22,10 +22,10 @@
 #     print()
 #     a += 1
 
-#九九乘法表
-for a in range(1,10):
-    for b in range(1,10):
-        if b<=a:
-            print(b,"*",a,"=",b*a,end="\t")
-            b=b+1
+# 九九乘法表
+for a in range(1, 10):
+    for b in range(1, 10):
+        if b <= a:
+            print(b, "*", a, "=", b * a, end="\t")
+            b = b + 1
     print()
